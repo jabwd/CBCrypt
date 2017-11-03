@@ -49,7 +49,7 @@
 
 /* Begin PBXFileReference section */
 		"CBCrypt::CBCrypt::Product" /* CBCrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CBCrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"CBCrypt::CBCryptTests::Product" /* CBCryptTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = CBCryptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"CBCrypt::CBCryptTests::Product" /* CBCryptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = CBCryptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* crypt_gensalt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = crypt_gensalt.c; sourceTree = "<group>"; };
 		OBJ_11 /* wrapper.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wrapper.c; sourceTree = "<group>"; };
 		OBJ_12 /* crypt_blowfish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crypt_blowfish.h; sourceTree = "<group>"; };
@@ -384,6 +384,7 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = CBCrypt;
 			};
 			name = Debug;
@@ -409,6 +410,7 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = CBCrypt;
 			};
 			name = Release;
