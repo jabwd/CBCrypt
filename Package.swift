@@ -21,7 +21,7 @@ let package = Package(
             name: "CBcrypt",
             dependencies: [],
             path: "Sources",
-            sources: ["bcrypt.c", "crypt_blowfish.c", "crypt_gensalt.c", "wrapper.c"],
+            sources: ["bcrypt.c", "crypt_blowfish.c", "crypt_gensalt.c", "wrapper.c", "x86.S"],
             publicHeadersPath: "."
         )
     ]
