@@ -14,7 +14,7 @@
  * See crypt_blowfish.c for more information.
  */
 
-#include <gnu-crypt.h>
+//#include <gnu-crypt.h>
 
 #if defined(_OW_SOURCE) || defined(__USE_OW)
 #define __SKIP_GNU
