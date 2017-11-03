@@ -1,0 +1,4 @@
+module CBCrypt {
+    umbrella "/Users/jabwd/Developer/Repositories/CBcrypt/Sources"
+    export *
+}
